@@ -2,7 +2,7 @@ pipeline {
     agent any 
     stages {
         stage('Build'){
-            step{
+            steps{
                 echo('Proses Bulid')
             }
         }
@@ -12,7 +12,7 @@ pipeline {
             }
         }
         stage('deploy'){
-            step{
+            steps{
                 echo('Proses ')
             }
         }
